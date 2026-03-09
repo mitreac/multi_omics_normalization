@@ -19,6 +19,7 @@ By the end of this 30-minute exercise you will be able to:
 **Data file:** `gene_treatment_data.txt` (5 genes, 6 samples, with gene lengths)
 
 **Structure:** Each section has a worked example followed by a short exercise. Exercises are "fill in the blank" — look for lines marked `### YOUR CODE HERE ###`.
+I need to make a change
 
 ```{r setup, message=FALSE}
 library(tidyverse)
