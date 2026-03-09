@@ -1,5 +1,6 @@
 # Multi -omics normalization examples and exercises
 
+# Rashmi is making a comment for to make a pull request
 Multi -omics normalization exercises and examples for BIOINF 504        
 Two notebook files - one in python and one in R - are provided      
 
