@@ -1,9 +1,9 @@
----
+-------------------------------------
 title: "Data Normalization for Multi-Omics"
 output:
   html_document:
     df_print: paged
----
+-------------------------------------
 
 # Data Normalization for Multi-Omics
 
