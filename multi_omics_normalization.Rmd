@@ -91,7 +91,7 @@ total_reads <- colSums(counts)
 # Divide each count by (gene_length_in_kb * total_reads_in_millions)
 rpkm <- sweep(counts, 1, lengths / 1e3, "/")
 rpkm <- sweep(rpkm, 2, total_reads / 1e6, "/")
-
+print("We will do exercise later")
 cat("RPKM values:\n")
 round(rpkm, 1)
 ```
