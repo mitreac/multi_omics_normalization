@@ -153,7 +153,12 @@ print(ex_lengths)
 
 # --- RPKM ---
 ex_total <- colSums(ex_counts)
-# ex_rpkm <- ### YOUR CODE HERE ###   # one-line vectorized RPKM formula
+
+# Divide each count by (gene_length_in_kb * total_reads_in_millions)
+ex_rpkm <- sweep(counts, 1, ex_lengths / 1e3, "/")
+ex_rpkm <- sweep(ex_rpkm, 2, ex_total / 1e6, "/")
+ ### YOUR CODE HERE ###   # one-line vectorized RPKM formula
+  
 
 # cat("\nRPKM:\n")
 # print(round(ex_rpkm, 1))
